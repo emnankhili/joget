@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Base des CV analysés</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- Global Styles --- */
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f2f6fb;
+            padding: 40px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #004b91;
+            margin-bottom: 40px;
+        }
+
+        /* --- Search Box Styles --- */
+        .search-box {
+            position: relative;
+            display: block;
+            max-width: 500px;
+            margin: 0 auto 20px auto;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 14px 45px 14px 18px;
+            font-size: 16px;
+            border: 2px solid #004b91;
+            border-radius: 12px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            border-color: #007BFF;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .result-count {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+            height: 18px;
+        }
+
+        /* --- Table Styles --- */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        .table th, .table td {
+            padding: 12px;
+            border: 1px solid #e1e1e1;
+            text-align: left;
+        }
+
+        .table th {
+            background-color: #004b91;
+            color: white;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 600px) {
+            .search-box input {
+                font-size: 15px;
+                padding: 12px 40px 12px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Base des CV analysés</h1>
+
+    <!-- Search Section -->
+    <div class="search-box">
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Rechercher un nom, un domaine, une nationalité...">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 24 24" fill="none" stroke="#004b91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </div>
+
+    <div class="result-count" id="resultCount"></div>
+
+    <!-- Table Section -->
+    <div id="cv-table">
+        {{ table|safe }}
+    </div>
+
+    <!-- Script Section -->
+    <script>
+        function filterTable() {
+            const input = document.getElementById("searchInput");
+            const filter = input.value.toLowerCase();
+            const table = document.querySelector(".table");
+            const rows = table.getElementsByTagName("tr");
+            let visibleRows = 0;
+
+            for (let i = 1; i < rows.length; i++) {
+                const row = rows[i];
+                const cells = row.getElementsByTagName("td");
+                let found = false;
+
+                for (let j = 0; j < cells.length; j++) {
+                    if (cells[j].textContent.toLowerCase().includes(filter)) {
+                        found = true;
+                        break;
+                    }
+                }
+
+                row.style.display = found ? "" : "none";
+                if (found) visibleRows++;
+            }
+
+            const resultCount = document.getElementById("resultCount");
+            if (filter === "") {
+                resultCount.textContent = "";
+            } else if (visibleRows === 0) {
+                resultCount.textContent = "Aucun résultat trouvé";
+            } else {
+                resultCount.textContent = `${visibleRows} résultat${visibleRows > 1 ? "s" : ""} affiché${visibleRows > 1 ? "s" : ""}`;
+            }
+        }
+    </script>
+
+</body>
+</html>

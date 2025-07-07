@@ -1,0 +1,127 @@
+[
+    {
+        "nom_complet": "MOUHSINE LAKHDISSI",
+        "domaine_expertise": "Architecte des systèmes d'information et urbanisation des SI",
+        "date_diplome_principal": "1999",
+        "annees_experience": 26,
+        "nationalite": "Marocain",
+        "diplomes": [
+            "Cycle Doctoral en Informatique – ENSIAS Maroc",
+            "Cycle Ingénieur d’état en informatique – ENSIAS Maroc"
+        ],
+        "fichier": "CV_Mouhsine_LAKHDISSI.docx"
+    },
+    {
+        "nom_complet": "Omar FEHRI",
+        "domaine_expertise": "Gestion de Projets, Expert Métier, Transformation Digitale, Paiement, Crédit",
+        "date_diplome_principal": "2017",
+        "annees_experience": 8,
+        "nationalite": "Tunisienne",
+        "diplomes": [
+            "Licence Fondamentale en Finance - Ecole supérieure des études administratives et commerciales (06-2015)",
+            "Certificat Chargé d’affaires Corporate – Académie des Banques et Finances (11-2018)",
+            "Master Professionnel en Révision Comptable – IHEC Carthage (02-2017)",
+            "PMP - Project Management Professional Certification - Project Management Institute (09-2024)",
+            "Licence Fondamentale en Comptabilité – Institut Supérieur d’administration des affaires (06-2015)"
+        ],
+        "fichier": "CV._OMAR_FEHRI_FR..pdf"
+    },
+    {
+        "nom_complet": "Hichem Gmar",
+        "domaine_expertise": "Analyste Technico-Fonctionnel Temenos T24",
+        "date_diplome_principal": "1985",
+        "annees_experience": 40,
+        "nationalite": "Tunisien",
+        "diplomes": [
+            "Maitrise de gestion spécialité informatique (ISG Tunis)"
+        ],
+        "fichier": "CV-Expert_T24_1.pdf"
+    },
+    {
+        "nom_complet": "Mohamed Anis BEN ROMDHANE",
+        "domaine_expertise": "Géomatique, cartographie, programmation informatique, gestion de projets",
+        "date_diplome_principal": "2012",
+        "annees_experience": 13,
+        "nationalite": "Tunisien",
+        "diplomes": [
+            "Master en Géomatique - Ecole Nationale Supérieure d'Ingénieurs de Tunis (ENIT), Tunisie, 2012"
+        ],
+        "fichier": "CV_Mohamed_Anis_BEN_ROMDHANE_-FR.docx"
+    },
+    {
+        "nom_complet": "HATEM GHAZALA",
+        "domaine_expertise": "Data Center, Cloud & Virtualisation, SWIFT, Audit de sécurité informatique",
+        "date_diplome_principal": "1988",
+        "annees_experience": 37,
+        "nationalite": "Tunisie",
+        "diplomes": [
+            "ITIL Foundation Certificate in IT Service Management",
+            "ISO/IEC 27001 Lead Auditor",
+            "Formation en Gestion des Systèmes d'Informations (1992-1993)",
+            "SWIFT Alliance Access Qualified Administrator",
+            "Maîtrise en Informatique de Gestion (1984-1988)"
+        ],
+        "fichier": "CV_HatemGhazala_02112023.pdf"
+    },
+    {
+        "nom_complet": "John Doe",
+        "domaine_expertise": "Ingénieur logiciel",
+        "date_diplome_principal": "2016",
+        "annees_experience": 9,
+        "nationalite": "",
+        "diplomes": [
+            "Ingénieur logiciel diplômé en 2016"
+        ],
+        "fichier": "cv_john.pdf"
+    },
+    {
+        "nom_complet": "Mariem Kraiem",
+        "domaine_expertise": "Comptabilité et Fiscalité bancaire, Normes IFRS et AAOIFI, Finance Islamique, Contrôle interne et Gestion des risques, Audit Financier, Diagnostic et Evaluation des entreprises, Maitrise d’ouvrage comptable",
+        "date_diplome_principal": "2013",
+        "annees_experience": 12,
+        "nationalite": "Tunisienne",
+        "diplomes": [
+            "Diplôme national d’Expertise Comptable - IHEC Carthage 2013",
+            "Certificat d’études supérieures en révision comptable - IHEC Carthage 2005",
+            "Maîtrise en Sciences Comptables - IHEC Carthage 2004"
+        ],
+        "fichier": "CV_Mariem_Kraiem_FR.docx"
+    },
+    {
+        "nom_complet": "Mariem Kraiem",
+        "domaine_expertise": "Comptabilité, Fiscalité bancaire, Normes IFRS, Finance Islamique, Contrôle interne, Audit Financier",
+        "date_diplome_principal": "2013",
+        "annees_experience": 12,
+        "nationalite": "Tunisienne",
+        "diplomes": [
+            "Diplôme national d’Expertise Comptable - IHEC Carthage 2013",
+            "Maîtrise en Sciences Comptables - IHEC Carthage 2004",
+            "Certificat d’études supérieures en révision comptable - IHEC Carthage 2005"
+        ],
+        "fichier": "CV_Mariem_Kraiem_FR_2.docx"
+    },
+    {
+        "nom_complet": "MOUHSINE LAKHDISSI",
+        "domaine_expertise": "Expertise en architecture d'entreprise, urbanisation des systèmes d'information, transformation digitale, gestion des SI, et référentiels ITIL, CMMI, PMBoK, CoBIT, ISO2700x. Compétences techniques : Java, Mobile, Cloud, Big Data, IA. Domaines métiers : Télécoms, Banque/Assurance, Secteur public.",
+        "date_diplome_principal": "1999",
+        "annees_experience": 26,
+        "nationalite": "Marocaine",
+        "diplomes": [
+            "Cycle Ingénieur d’état en informatique – ENSIAS Maroc",
+            "Cycle Doctoral en Informatique – ENSIAS Maroc"
+        ],
+        "fichier": "CV_Mouhsine_LAKHDISSI_2.docx"
+    },
+    {
+        "nom_complet": "Samir Gafsi",
+        "domaine_expertise": "Cloud Native, Big Data, Data Governance, Master Data Management, Robotics Process Automation, Architecture d'entreprise, SCRUM Master, Formateur en Big Data & Cloud Native & RPA & BPM",
+        "date_diplome_principal": "1991",
+        "annees_experience": 34,
+        "nationalite": "Tunisienne",
+        "diplomes": [
+            "Diplôme d'Analyste en Informatique, Ecole Supérieure des Télécommunications, Tunis, Tunisie (1985)",
+            "Baccalauréat en Sciences et Mathématiques (1981)"
+        ],
+        "fichier": "cv-SamirGafsi202405.docx"
+    }
+]

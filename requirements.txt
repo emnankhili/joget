@@ -1,0 +1,6 @@
+Flask
+pdfplumber
+pytesseract
+python-docx
+openai
+werkzeug
